@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+/* Core HTML & body styles */
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    font-family: 'Permanent Marker', sans-serif;
+    background-image: url('assets/images/yewwwkookLogo_compressed.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-color: #000;   
+}
+
+/* Hero section */
+.hero {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+    color: #f6371587;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+    color: #62c3e69d;
+}
+
+/* Email form */
+form#emailForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+form input[type="email"] {
+    padding: 0.75rem 1rem;
+    border: 2px solid #62c3e6;
+    border-radius: 7px;
+    width: 280px;
+    font-size: 1rem;
+    background: none;
+}
+
+    form input[type="email"]::-webkit-input-placeholder {
+        color: #62c3e6;
+    }
+    form input[type="email"]:-ms-input-placeholder {
+        color: #62c3e6;
+    }
+    form input[type="email"]::placeholder {
+        color: #62c3e6;
+        opacity: 1;
+    }
+
+        form input[type="email"] {
+            transition: text-shadow 0.3s ease-in-out;
+        }
+        form input[type="email"]:hover {
+            text-shadow: 0 0 2px #62c3e6, 0 0 4px #62c3e6;
+        }
+
+form button {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+    -moz-transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, color 0.2s ease-in-out;
+    -webkit-transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, color 0.2s ease-in-out;
+    -ms-transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, color 0.2s ease-in-out;
+    transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, color 0.2s ease-in-out;
+    background: #f6371565;
+    color: #000;
+    border: none;
+    padding: 0.75rem 1.25rem;
+    font-weight: bold;
+    font-size: 1rem;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #f56b20;
+}
+
+/* 3D canvas container */
+.three-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    z-index: 0;
+    overflow: hidden;
+}
+
+canvas#threeCanvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    width: 100vw;
+    height: 100vh;
+    display: block;
+}
+
+/* Footer */
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    padding: 1rem;
+    font-size: 0.9rem;
+    color: #666666c4;
+    z-index: 10;
+    background: transparent;
+}
+  
