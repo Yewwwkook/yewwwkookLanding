@@ -96,6 +96,30 @@ form button:hover {
     background: #f56b20;
 }
 
+a {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+    -moz-transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, color 0.2s ease-in-out;
+    -webkit-transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, color 0.2s ease-in-out;
+    -ms-transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, color 0.2s ease-in-out;
+    transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, color 0.2s ease-in-out;
+    background: #f6371565;
+    color: #000;
+    border: none;
+    padding: 0.75rem 1.25rem;
+    font-weight: bold;
+    font-size: 1rem;
+    border-radius: 7px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+a:hover {
+    background: #f56b20;
+}
+
 /* 3D canvas container */
 .three-container {
     position: fixed;
