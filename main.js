@@ -74,11 +74,15 @@ import {OrbitControls} from "three/addons/controls/OrbitControls.js";
         // Pass loadingManager to all resource loaders.
     let loadingManager = new THREE.LoadingManager();
     let RESOURCES_LOADED = false;
-        loadingManager.onLoad = function(){
-            console.log("loaded all resources");
-            RESOURCES_LOADED = true;
-            initAll();
-        };
+        loadingManager.onLoad = function () {
+			console.log("loaded all resources");
+			RESOURCES_LOADED = true;
+			initAll();
+
+			// Hide loader after init
+			const loader = document.getElementById("waveLoader");
+			if (loader) loader.style.display = "none";
+		};
     let txtrLoader = new THREE.TextureLoader(loadingManager);
 
 
