@@ -8,9 +8,9 @@ html, body {
     width: 100%;
     overflow: hidden;
     font-family: 'Permanent Marker', sans-serif;
-    background-image: url('assets/images/yewwwkookLogo_compressed.png');
+    background-image: url('assets/images/yewwwkookLogo_compressed_noName.png');
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center ;
     background-size: contain;
     background-color: #000;   
 }
