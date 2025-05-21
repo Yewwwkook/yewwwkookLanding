@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Raleway:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
 
 /* Core HTML & body styles */
 html, body {
@@ -82,8 +82,9 @@ form button {
     -webkit-transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, color 0.2s ease-in-out;
     -ms-transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, color 0.2s ease-in-out;
     transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, color 0.2s ease-in-out;
+    font-family: 'Raleway', sans-serif;
     background: #f6371565;
-    color: #000;
+    color: #62c3e6be;
     border: none;
     padding: 0.75rem 1.25rem;
     font-weight: bold;
@@ -93,7 +94,7 @@ form button {
 }
 
 form button:hover {
-    background: #f56b20;
+    background: #f55920d3;
 }
 
 a {
@@ -105,8 +106,9 @@ a {
     -webkit-transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, color 0.2s ease-in-out;
     -ms-transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, color 0.2s ease-in-out;
     transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, color 0.2s ease-in-out;
+    font-family: 'Raleway', sans-serif;
     background: #f6371565;
-    color: #000;
+    color: #62c3e6be;
     border: none;
     padding: 0.75rem 1.25rem;
     font-weight: bold;
@@ -117,7 +119,7 @@ a {
 }
 
 a:hover {
-    background: #f56b20;
+    background: #f55920d3;
 }
 
 /* 3D canvas container */
@@ -145,6 +147,7 @@ canvas#threeCanvas {
 
 /* Footer */
 footer {
+    display: block;
     position: fixed;
     bottom: 0;
     left: 0;
@@ -155,6 +158,13 @@ footer {
     color: #666666c4;
     z-index: 10;
     background: transparent;
+}
+
+footer > p {
+    white-space: normal;
+    overflow-wrap: break-word;
+    max-width: 100%;
+    padding: 0 3rem;
 }
 
 /* Loading screen */
