@@ -53,6 +53,7 @@ form input[type="email"] {
     width: 280px;
     font-size: 1rem;
     background: none;
+    color: #c0dfea;
 }
 
     form input[type="email"]::-webkit-input-placeholder {
