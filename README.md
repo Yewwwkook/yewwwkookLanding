@@ -4,17 +4,17 @@ This is the public-facing landing page for **yewwwkook**, a community-powered su
 
 ---
 
-## 🌊 Features
+## Features
 
-- 🎨 Static HTML/CSS/JS with modern layout
-- 🌐 Uses [Three.js 0.176](https://unpkg.com/three@0.176/build/three.module.js) for 3D effects
-- 📬 Email capture form to build an early user base
-- 💻 Deployed via Netlify
-- 📱 Responsive and mobile-ready
+-  Static HTML/CSS/JS with modern layout
+-  Uses [Three.js 0.176](https://unpkg.com/three@0.176/build/three.module.js) for 3D effects
+-  Email capture form to build an early user base
+-  Deployed via Netlify
+-  Responsive and mobile-ready
 
 ---
 
-## 🧰 Tech Stack
+## Tech Stack
 
 - HTML5 + CSS3 + vanilla JavaScript
 - [Three.js](https://threejs.org/) via CDN
@@ -22,7 +22,7 @@ This is the public-facing landing page for **yewwwkook**, a community-powered su
 
 ---
 
-## 📩 Email Collection
+## Email Collection
 
 The landing page includes an email input field and submit button. You'll want to:
 
@@ -32,7 +32,7 @@ The landing page includes an email input field and submit button. You'll want to
 
 ---
 
-## 🚀 Deployment
+## Deployment
 
 You can deploy this using any static hosting provider:
 
@@ -43,14 +43,14 @@ You can deploy this using any static hosting provider:
 
 ---
 
-## 📝 License
+## License
 
 All code in this landing page is released under the [MIT License](LICENSE).
 
 ---
 
-## 🙋‍♂️ Contact
+## Contact
 
 Want to help build the app or stay in the loop?
 
-📫 Sign up via the form on the site or contact [jhladnikwebdev@gmail.com](jhladnikwebdev@gmail.com)
+Sign up via the form on the site or contact [jhladnikwebdev@gmail.com](jhladnikwebdev@gmail.com)
